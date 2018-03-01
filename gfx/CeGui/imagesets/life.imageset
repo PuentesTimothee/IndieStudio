@@ -1,0 +1,3 @@
+<Imageset autoScaled="" imagefile="../../image/life.jpg" name="Life" nativeHorzRes="800" nativeVertRes="600" version="2">
+    <Image height="26" name="Life" width="245" xPos="256" yPos="31" />
+</Imageset>

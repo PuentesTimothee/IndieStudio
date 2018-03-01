@@ -1,0 +1,3 @@
+<Imageset autoScaled="" imagefile="../../image/MainMenu.png" name="MainMenu" nativeHorzRes="800" nativeVertRes="600" version="2">
+    <Image height="18" name="Cursor" width="24" xPos="1" yPos="47" />
+</Imageset>

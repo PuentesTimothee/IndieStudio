@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout version="4" >
+    <Window type="DefaultWindow" name="GameHud" >
+        <Property name="ID" value="3" />
+        <Property name="Area" value="{{0,2},{0,1},{1,2},{1,-5}}" />
+        <Property name="Active" value="true" />
+        <Property name="MaxSize" value="{{1,0},{1,0}}" />
+        <Window type="DefaultWindow" name="Priest" >
+            <Property name="ID" value="2" />
+            <Property name="Area" value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            <Window type="Generic/Image" name="Frame" >
+                <Property name="Area" value="{{0,10},{0,15},{0,160},{0,165}}" />
+                <Property name="Image" value="Menu/Frame" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            </Window>
+            <Window type="Generic/Image" name="Head" >
+                <Property name="Area" value="{{0,28},{0,37},{0,138},{0,147}}" />
+                <Property name="Image" value="PriestLogo/PriestHead" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            </Window>
+            <Window type="Generic/Image" name="Life" >
+                <Property name="Area" value="{{0,10},{0,165},{0,160},{0,185}}" />
+                <Property name="Image" value="Menu/LifeEmpty" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            </Window>
+            <Window type="Generic/Image" name="Stamina" >
+                <Property name="Area" value="{{0,10},{0,185},{0,160},{0,205}}" />
+                <Property name="Image" value="Menu/LifeEmpty" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            </Window>
+            <Window type="Generic/Image" name="StaminaBar" >
+                <Property name="Area" value="{{0,15},{0,190},{0,155},{0,200}}" />
+                <Property name="Image" value="Menu/Life" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                <Property name="ImageColours" value="tl:FFFF0000 tr:FFFF0000 bl:FFFF0000 br:FFFF0000" />
+            </Window>
+            <Window type="Generic/Image" name="LifeBackgound" >
+                <Property name="Area" value="{{0,15},{0,170},{0,155},{0,180}}" />
+                <Property name="Image" value="Menu/Life" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                <Property name="ImageColours" value="tl:FF0A0A0A tr:FF0A0A0A bl:FF0A0A0A br:FF0A0A0A" />
+            </Window>
+            <Window type="Generic/Image" name="LifeBar" >
+                <Property name="Area" value="{{0,15},{0,170},{0,155},{0,180}}" />
+                <Property name="Image" value="Menu/Life" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            </Window>
+        </Window>
+        <Window type="DefaultWindow" name="Valkyrie" >
+            <Property name="ID" value="1" />
+            <Property name="Area" value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            <Window type="Generic/Image" name="Frame" >
+                <Property name="Area" value="{{0,1750},{0,15},{0,1900},{0,165}}" />
+                <Property name="Image" value="Menu/Frame" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            </Window>
+            <Window type="Generic/Image" name="Head" >
+                <Property name="Area" value="{{0,1769},{0,39},{0,1879},{0,149}}" />
+                <Property name="Image" value="Warrior/WarriorHead" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            </Window>
+            <Window type="Generic/Image" name="Life" >
+                <Property name="Area" value="{{0,1750},{0,365},{0,1900},{0,385}}" />
+                <Property name="Image" value="Menu/LifeEmpty" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            </Window>
+            <Window type="Generic/Image" name="Stamina" >
+                <Property name="Area" value="{{0,1750},{0,385},{0,1900},{0,405}}" />
+                <Property name="Image" value="Menu/LifeEmpty" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            </Window>
+            <Window type="Generic/Image" name="StaminaBar" >
+                <Property name="Area" value="{{0,1755},{0,390},{0,1895},{0,400}}" />
+                <Property name="Image" value="Menu/Life" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                <Property name="ImageColours" value="tl:FFFF0000 tr:FFFF0000 bl:FFFF0000 br:FFFF0000" />
+            </Window>
+            <Window type="Generic/Image" name="LifeBackground" >
+                <Property name="Area" value="{{0,1755},{0,370},{0,1895},{0,380}}" />
+                <Property name="Image" value="Menu/Life" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                <Property name="ImageColours" value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+            </Window>
+            <Window type="Generic/Image" name="LifeBar" >
+                <Property name="Area" value="{{0,1755},{0,370},{0,1895},{0,380}}" />
+                <Property name="Image" value="Menu/Life" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                <Property name="AlwaysOnTop" value="true" />
+            </Window>
+        </Window>
+        <Window type="DefaultWindow" name="Warrior" >
+            <Property name="Area" value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            <Window type="Generic/Image" name="Frame" >
+                <Property name="Area" value="{{0,10},{0,215},{0,160},{0,365}}" />
+                <Property name="Image" value="Menu/Frame" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            </Window>
+            <Window type="Generic/Image" name="WarriorHead" >
+                <Property name="Area" value="{{0,30},{0,239},{0,140},{0,349}}" />
+                <Property name="Image" value="AssassinLogo/AssassinHead" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            </Window>
+            <Window type="Generic/Image" name="Life" >
+                <Property name="Area" value="{{0,1750},{0,165},{0,1900},{0,185}}" />
+                <Property name="Image" value="Menu/LifeEmpty" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            </Window>
+            <Window type="Generic/Image" name="Stamina" >
+                <Property name="Area" value="{{0,1750},{0,185},{0,1900},{0,205}}" />
+                <Property name="Image" value="Menu/LifeEmpty" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            </Window>
+            <Window type="Generic/Image" name="StaminaBar" >
+                <Property name="Area" value="{{0,1755},{0,190},{0,1895},{0,200}}" />
+                <Property name="Image" value="Menu/Life" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                <Property name="ImageColours" value="tl:FFFF0000 tr:FFFF0000 bl:FFFF0000 br:FFFF0000" />
+            </Window>
+            <Window type="Generic/Image" name="LifeBackground" >
+                <Property name="Area" value="{{0,1755},{0,170},{0,1895},{0,180}}" />
+                <Property name="Image" value="Menu/Life" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                <Property name="ImageColours" value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+            </Window>
+            <Window type="Generic/Image" name="LifeBar" >
+                <Property name="Area" value="{{0,1755},{0,170},{0,1895},{0,180}}" />
+                <Property name="Image" value="Menu/Life" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                <Property name="AlwaysOnTop" value="true" />
+            </Window>
+        </Window>
+        <Window type="DefaultWindow" name="Assassin" >
+            <Property name="ID" value="3" />
+            <Property name="Area" value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            <Window type="Generic/Image" name="Frame" >
+                <Property name="Area" value="{{0,1750},{0,215},{0,1900},{0,365}}" />
+                <Property name="Image" value="Menu/Frame" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            </Window>
+            <Window type="Generic/Image" name="Life" >
+                <Property name="Area" value="{{0,10},{0,365},{0,160},{0,385}}" />
+                <Property name="Image" value="Menu/LifeEmpty" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            </Window>
+            <Window type="Generic/Image" name="AssassinHead" >
+                <Property name="Area" value="{{0,1773},{0,237},{0,1883},{0,347}}" />
+                <Property name="Image" value="Valkyrie/ValkyrieHead" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            </Window>
+            <Window type="Generic/Image" name="Stamina" >
+                <Property name="Area" value="{{0,10},{0,385},{0,160},{0,405}}" />
+                <Property name="Image" value="Menu/LifeEmpty" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            </Window>
+            <Window type="Generic/Image" name="StaminaBar" >
+                <Property name="Area" value="{{0,15},{0,390},{0,155},{0,400}}" />
+                <Property name="Image" value="Menu/Life" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                <Property name="ImageColours" value="tl:FFFF0000 tr:FFFF0000 bl:FFFF0000 br:FFFF0000" />
+            </Window>
+            <Window type="Generic/Image" name="LifeBackground" >
+                <Property name="Area" value="{{0,15},{0,370},{0,155},{0,380}}" />
+                <Property name="Image" value="Menu/Life" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                <Property name="ImageColours" value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+            </Window>
+            <Window type="Generic/Image" name="LifeBar" >
+                <Property name="Area" value="{{0,15},{0,370},{0,155},{0,380}}" />
+                <Property name="Image" value="Menu/Life" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                <Property name="AlwaysOnTop" value="true" />
+            </Window>
+        </Window>
+        <Window type="DefaultWindow" name="ScoreBox" >
+            <Property name="ID" value="4" />
+            <Property name="Area" value="{{0,-2},{0,0},{1,-11},{1,0}}" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            <Window type="Generic/Image" name="Box" >
+                <Property name="Area" value="{{0,2},{0,969},{0,284},{0,1060}}" />
+                <Property name="Image" value="Menu/Barre" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                <Property name="ImageColours" value="tl:FF646464 tr:FFFFFFFF bl:FFFFFFFF br:FF646464" />
+            </Window>
+            <Window type="Generic/Label" name="Text" >
+                <Property name="Area" value="{{0,32},{0,997},{0,93},{0,1029}}" />
+                <Property name="Text" value="Score : " />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                <Property name="NormalTextColour" value="FFFFFFFF" />
+            </Window>
+            <Window type="Generic/Label" name="Score" >
+                <Property name="Area" value="{{0,93},{0,997},{0,221},{0,1029}}" />
+                <Property name="Text" value="0000" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                <Property name="NormalTextColour" value="FFFFFFFF" />
+            </Window>
+        </Window>
+        <Window type="Generic/Label" name="LevelText" >
+            <Property name="Area" value="{{0,810},{0,10},{0,1110},{0,66}}" />
+            <Property name="Font" value="Runic-MT-28" />
+            <Property name="Text" value="Level I" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            <Property name="NormalTextColour" value="FFFFFFC8" />
+        </Window>
+        <Window type="DefaultWindow" name="Boss" >
+            <Property name="Area" value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            <Property name="Visible" value="false" />
+            <Window type="Generic/Image" name="LifeEmpty" >
+                <Property name="Area" value="{{0,660},{0,950},{0,1260},{0,1020}}" />
+                <Property name="Image" value="Menu/Button" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                <Property name="ImageColours" value="tl:FF646464 tr:FFFFFFFF bl:FFFFFFFF br:FF646464" />
+            </Window>
+            <Window type="Generic/Image" name="LifeBackground" >
+                <Property name="Area" value="{{0,688},{0,967},{0,1238},{0,1000}}" />
+                <Property name="Image" value="Menu/Life" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                <Property name="ImageColours" value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+            </Window>
+            <Window type="Generic/Image" name="Life" >
+                <Property name="Area" value="{{0,688},{0,967},{0,1238},{0,999}}" />
+                <Property name="Image" value="Splash/White" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                <Property name="ImageColours" value="tl:FF004D90 tr:FF348CD9 bl:FF004D90 br:FF8F71D4" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,18 @@
+armes:
+Epee			one hand thrust02.wav
+Lancer de couteaux	one hand swing small02.wav
+Lance			two hand thrust10.wav
+Baton			two hand swing small04.wav / staff blunt03.wav
+Boule de feu		explosionlarge4.wav explosionlarge2.wav
+
+hit:
+Pretre			sorceress hit/death
+Assassin		assassin
+Guerrier		druid
+Valkyrie		amazon
+
+
+
+Piece d'or pickup/drop?	gold.wav
+
+Curseur: select.wav, repair.wav

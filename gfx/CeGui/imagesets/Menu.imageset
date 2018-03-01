@@ -1,0 +1,10 @@
+<Imageset autoScaled="false" imagefile="../../image/Menu.jpg" name="Menu" nativeHorzRes="800" nativeVertRes="600" version="2">
+    <Image height="407" name="Box" width="410" xPos="440" yPos="99" />
+    <Image height="38" name="Button" width="267" xPos="1040" yPos="276" />
+    <Image height="203" name="Frame" width="203" xPos="1038" yPos="407" />
+    <Image height="46" name="Barre" width="268" xPos="1318" yPos="478" />
+    <Image height="372" name="Ornement" width="372" xPos="49" yPos="94" />
+    <Image height="25" name="Side" width="557" xPos="438" yPos="623" />
+    <Image height="14" name="Life" width="396" xPos="444" yPos="524" />
+    <Image height="28" name="LifeEmpty" width="413" xPos="438" yPos="551" />
+</Imageset>

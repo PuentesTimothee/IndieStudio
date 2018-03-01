@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout version="4" >
+    <Window type="DefaultWindow" name="PlayerSelect" >
+        <Property name="ID" value="1" />
+        <Property name="Area" value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Property name="Active" value="true" />
+        <Property name="MaxSize" value="{{1,0},{1,0}}" />
+        <Window type="Generic/Image" name="CursorLeft" >
+            <Property name="ID" value="101" />
+            <Property name="Area" value="{{0,0},{0.4,0},{0.2,0},{0.6,0}}" />
+            <Property name="Image" value="MainMenuCursor/Cursor1" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            <Window type="Generic/Label" name="Label" >
+                <Property name="Area" value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Property name="Font" value="Runic-MT-28" />
+                <Property name="Text" value="-" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            </Window>
+        </Window>
+        <Window type="Generic/Image" name="CursorRight" >
+            <Property name="ID" value="101" />
+            <Property name="Area" value="{{0.8,0},{0.4,0},{1,0},{0.6,0}}" />
+            <Property name="Image" value="MainMenuCursor/Cursor1" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            <Window type="Generic/Label" name="Label" >
+                <Property name="Area" value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Property name="Font" value="Runic-MT-28" />
+                <Property name="Text" value="+" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            </Window>
+        </Window>
+        <Window type="Generic/Image" name="PlayerNumber" >
+            <Property name="ID" value="101" />
+            <Property name="Area" value="{{0.2,0},{0.4,0},{0.8,0},{0.6,0}}" />
+            <Property name="Image" value="MainMenuCursor/Cursor1" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            <Window type="Generic/Label" name="Label" >
+                <Property name="Area" value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Property name="Font" value="Runic-MT-28" />
+                <Property name="Text" value="Player: 1" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                <Property name="AlwaysOnTop" value="true" />
+                <Property name="NormalTextColour" value="FFFFFFFF" />
+            </Window>
+        </Window>
+        <Window type="Generic/Image" name="Title" >
+            <Property name="ID" value="101" />
+            <Property name="Area" value="{{0.2,0},{0,0},{0.8,0},{0.2,0}}" />
+            <Property name="Image" value="MainMenuCursor/Cursor1" />
+            <Property name="Active" value="true" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            <Window type="Generic/Label" name="Label" >
+                <Property name="Area" value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Property name="Font" value="Runic-MT-20" />
+                <Property name="Text" value="Select the number of Player" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                <Property name="AlwaysOnTop" value="true" />
+                <Property name="NormalTextColour" value="FFFFFFFF" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

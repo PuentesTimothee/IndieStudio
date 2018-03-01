@@ -1,0 +1,3 @@
+<Imageset autoScaled="" imagefile="../../image/assassinLogo.png" name="AssassinLogo" nativeHorzRes="800" nativeVertRes="600" version="2">
+    <Image height="350" name="AssassinHead" width="350" xPos="45" yPos="18" />
+</Imageset>

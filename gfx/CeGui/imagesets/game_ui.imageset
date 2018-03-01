@@ -1,0 +1,4 @@
+<Imageset autoScaled="" imagefile="game_ui.jpg" name="GameUI" nativeHorzRes="800" nativeVertRes="600" version="2">
+    <Image height="87" name="Frame" width="292" xPos="373" yPos="94" />
+    <Image height="225" name="Frame2" width="219" xPos="387" yPos="198" />
+</Imageset>

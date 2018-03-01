@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project CEGUIDefaultResolution="1920x1080" CEGUIVersion="0.8" baseDirectory="." fontsPath="fonts" imagesetsPath="imagesets" layoutsPath="layouts" looknfeelsPath="looknfeel" schemesPath="schemes" version="CEED Project 1" xmlSchemasPath="xml_schemas">
+    <Items>
+        <Item name="ImageSet" type="folder">
+            <Item path="imagesets/Fantasy.imageset" type="file" />
+            <Item path="imagesets/MainMenuCursor.imageset" type="file" />
+            <Item path="imagesets/Menu.imageset" type="file" />
+            <Item path="imagesets/Splashscreen.imageset" type="file" />
+            <Item path="imagesets/assassinLogo.imageset" type="file" />
+            <Item path="imagesets/game_ui.imageset" type="file" />
+            <Item path="imagesets/priestLogo.imageset" type="file" />
+            <Item path="imagesets/valkyrieLogo.imageset" type="file" />
+            <Item path="imagesets/warriorLogo.imageset" type="file" />
+            <Item path="imagesets/life.imageset" type="file" />
+        </Item>
+        <Item name="Layout" type="folder">
+            <Item path="layouts/Defeat.layout" type="file" />
+            <Item path="layouts/GameHUD.layout" type="file" />
+            <Item path="layouts/GameMenu.layout" type="file" />
+            <Item path="layouts/MainMenu.layout" type="file" />
+            <Item path="layouts/SplashScreen.layout" type="file" />
+            <Item path="layouts/Victory.layout" type="file" />
+            <Item path="layouts/PlayerSelect.layout" type="file" />
+            <Item path="layouts/HighScore.layout" type="file" />
+            <Item path="layouts/PlayerSelect.layout" type="file" />
+            <Item path="layouts/Settings.layout" type="file" />
+            <Item path="layouts/MainSelect.layout" type="file" />
+        </Item>
+    </Items>
+</Project>

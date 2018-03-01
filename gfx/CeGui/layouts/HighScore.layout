@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout version="4" >
+    <Window type="DefaultWindow" name="HighScore" >
+        <Property name="ID" value="1" />
+        <Property name="Area" value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Property name="Active" value="true" />
+        <Property name="MaxSize" value="{{1,0},{1,0}}" />
+        <Window type="Generic/Label" name="Score1" >
+            <Property name="ID" value="1" />
+            <Property name="Area" value="{{0.2,0},{0.2,0},{0.8,0},{0.3,0}}" />
+            <Property name="Font" value="Runic-MT-28" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+        </Window>
+        <Window type="Generic/Label" name="Score2" >
+            <Property name="ID" value="2" />
+            <Property name="Area" value="{{0.2,0},{0.3,0},{0.8,0},{0.4,0}}" />
+            <Property name="Font" value="Runic-MT-28" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+        </Window>
+        <Window type="Generic/Label" name="Score3" >
+            <Property name="ID" value="3" />
+            <Property name="Area" value="{{0.2,0},{0.4,0},{0.8,0},{0.5,0}}" />
+            <Property name="Font" value="Runic-MT-28" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+        </Window>
+        <Window type="Generic/Label" name="Score4" >
+            <Property name="ID" value="4" />
+            <Property name="Area" value="{{0.2,0},{0.5,0},{0.8,0},{0.6,0}}" />
+            <Property name="Font" value="Runic-MT-28" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+        </Window>
+        <Window type="Generic/Label" name="Score5" >
+            <Property name="ID" value="5" />
+            <Property name="Area" value="{{0.2,0},{0.6,0},{0.8,0},{0.7,0}}" />
+            <Property name="Font" value="Runic-MT-28" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+        </Window>
+        <Window type="Generic/Label" name="Score6" >
+            <Property name="ID" value="6" />
+            <Property name="Area" value="{{0.2,0},{0.6,0},{0.8,0},{0.7,0}}" />
+            <Property name="Font" value="Runic-MT-28" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+        </Window>
+        <Window type="Generic/Label" name="Score7" >
+            <Property name="ID" value="7" />
+            <Property name="Area" value="{{0.2,0},{0.7,0},{0.8,0},{0.8,0}}" />
+            <Property name="Font" value="Runic-MT-28" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+        </Window>
+        <Window type="Generic/Label" name="Score8" >
+            <Property name="ID" value="8" />
+            <Property name="Area" value="{{0.2,0},{0.8,0},{0.8,0},{0.9,0}}" />
+            <Property name="Font" value="Runic-MT-28" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+        </Window>
+        <Window type="Generic/Label" name="Score9" >
+            <Property name="ID" value="9" />
+            <Property name="Area" value="{{0.2,0},{0.9,0},{0.8,0},{1,0}}" />
+            <Property name="Font" value="Runic-MT-28" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+        </Window>
+        <Window type="Generic/Image" name="Title" >
+            <Property name="Area" value="{{0.2,0},{0,0},{0.8,0},{0.2,0}}" />
+            <Property name="Image" value="MainMenuCursor/Cursor1" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            <Window type="Generic/Label" name="Title" >
+                <Property name="Area" value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Property name="Font" value="Runic-MT-28" />
+                <Property name="Text" value="High Score" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                <Property name="AlwaysOnTop" value="true" />
+                <Property name="NormalTextColour" value="FFFFFFFF" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

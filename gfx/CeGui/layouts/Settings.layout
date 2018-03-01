@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout version="4" >
+    <Window type="DefaultWindow" name="Setting" >
+        <Property name="ID" value="1" />
+        <Property name="Area" value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Property name="Active" value="true" />
+        <Property name="MaxSize" value="{{1,0},{1,0}}" />
+        <Window type="Generic/Image" name="Title" >
+            <Property name="Area" value="{{0.3,0},{0,0},{0.7,0},{0.2,0}}" />
+            <Property name="Image" value="MainMenuCursor/Cursor1" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            <Window type="Generic/Label" name="Label" >
+                <Property name="Area" value="{{0,0},{0,0},{1,0},{1,0}}" />
+                <Property name="Font" value="Runic-MT-20" />
+                <Property name="Text" value="Settings" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                <Property name="AlwaysOnTop" value="true" />
+                <Property name="NormalTextColour" value="FFFFFFFF" />
+            </Window>
+        </Window>
+        <Window type="DefaultWindow" name="Option2" >
+            <Property name="ID" value="11" />
+            <Property name="Area" value="{{0,0},{0.55,0},{1,0},{0.75,0}}" />
+            <Property name="Active" value="true" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            <Window type="Generic/Image" name="SoundBar" >
+                <Property name="ID" value="1" />
+                <Property name="Area" value="{{0.2,0},{0,0},{0.8,0},{1,0}}" />
+                <Property name="Image" value="MainMenuCursor/Cursor3" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                <Window type="Generic/Image" name="Bar" >
+                    <Property name="ID" value="101" />
+                    <Property name="Area" value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    <Property name="Image" value="MainMenuCursor/Cursor1" />
+                    <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                </Window>
+            </Window>
+            <Window type="Generic/Label" name="Percentage" >
+                <Property name="ID" value="2" />
+                <Property name="Area" value="{{0.8,0},{0,0},{1,0},{1,0}}" />
+                <Property name="Font" value="Runic-MT-28" />
+                <Property name="Text" value="100" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            </Window>
+        </Window>
+        <Window type="DefaultWindow" name="Option1" >
+            <Property name="ID" value="10" />
+            <Property name="Area" value="{{0,0},{0.25,0},{1,0},{0.45,0}}" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            <Window type="Generic/Image" name="SoundBar" >
+                <Property name="ID" value="1" />
+                <Property name="Area" value="{{0.2,0},{0,0},{0.8,0},{1,0}}" />
+                <Property name="Image" value="MainMenuCursor/Cursor3" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                <Window type="Generic/Image" name="Bar" >
+                    <Property name="ID" value="101" />
+                    <Property name="Area" value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    <Property name="Image" value="MainMenuCursor/Cursor1" />
+                    <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                </Window>
+            </Window>
+            <Window type="Generic/Label" name="Percentage" >
+                <Property name="ID" value="2" />
+                <Property name="Area" value="{{0.8,0},{0,0},{1,0},{1,0}}" />
+                <Property name="Font" value="Runic-MT-28" />
+                <Property name="Text" value="100" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            </Window>
+        </Window>
+        <Window type="Generic/Image" name="Cursor" >
+            <Property name="ID" value="1" />
+            <Property name="Area" value="{{0,0},{0.25,0},{0.2,0},{0.45,0}}" />
+            <Property name="Image" value="MainMenuCursor/Cursor1" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+        </Window>
+        <Window type="Generic/Label" name="OptionLabel1" >
+            <Property name="ID" value="100" />
+            <Property name="Area" value="{{0,0},{0.25,0},{0.2,0},{0.45,0}}" />
+            <Property name="Font" value="Runic-MT-20" />
+            <Property name="Text" value="Music" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            <Property name="AlwaysOnTop" value="true" />
+        </Window>
+        <Window type="Generic/Label" name="OptionLabel2" >
+            <Property name="ID" value="101" />
+            <Property name="Area" value="{{0,0},{0.55,0},{0.2,0},{0.75,0}}" />
+            <Property name="Font" value="Runic-MT-20" />
+            <Property name="Text" value="Sound" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            <Property name="AlwaysOnTop" value="true" />
+        </Window>
+        <Window type="Generic/Label" name="OptionLabel3" >
+            <Property name="ID" value="102" />
+            <Property name="Area" value="{{0.4,0},{0.8,0},{0.6,0},{1,0}}" />
+            <Property name="Font" value="Runic-MT-20" />
+            <Property name="Text" value="Quit" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            <Property name="AlwaysOnTop" value="true" />
+        </Window>
+    </Window>
+</GUILayout>

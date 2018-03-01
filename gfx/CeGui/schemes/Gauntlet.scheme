@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<GUIScheme version="5" name="Gauntlet">
+	<Imageset filename="Splashscreen.imageset" />
+	<Imageset filename="MainMenuCursor.imageset" />
+	<Imageset filename="Menu.imageset" />
+	<Imageset filename="priestLogo.imageset" />
+	<Imageset filename="valkyrieLogo.imageset" />
+	<Imageset filename="assassinLogo.imageset" />
+	<Imageset filename="warriorLogo.imageset" />
+	<Imageset filename="game_ui.imageset" />
+	<Imageset filename="MainMenu.imageset" />
+	<Imageset filename="Fantasy.imageset" />
+	<Imageset filename="life.imageset" />
+	<Font filename="runic-mt-13.font" />
+	<Font filename="runic-mt-18.font" />
+	<Font filename="runic-mt-20.font" />
+	<Font filename="runic-mt-28.font" />
+	<LookNFeel filename="Generic.looknfeel" />
+	<WindowRendererSet filename="CEGUICoreWindowRendererSet" />
+</GUIScheme>

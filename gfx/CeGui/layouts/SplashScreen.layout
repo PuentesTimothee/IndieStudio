@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout version="4" >
+    <Window type="DefaultWindow" name="DefaultWindow" >
+        <Property name="Area" value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Property name="Active" value="true" />
+        <Property name="MaxSize" value="{{1,0},{1,0}}" />
+        <Window type="Generic/Image" name="Image" >
+            <Property name="Area" value="{{0,811},{0,1},{0,1919},{0,1078}}" />
+            <Property name="Image" value="Splash/Girl" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+        </Window>
+        <Window type="Generic/Image" name="Image2" >
+            <Property name="Area" value="{{0,0},{0,0},{0,846},{0,1078}}" />
+            <Property name="Image" value="Splash/White" />
+            <Property name="Active" value="true" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

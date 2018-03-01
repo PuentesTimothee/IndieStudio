@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout version="4" >
+    <Window type="DefaultWindow" name="GameMenu" >
+        <Property name="ID" value="2" />
+        <Property name="Area" value="{{0,0},{0,-2},{1,0},{1,-2}}" />
+        <Property name="Active" value="true" />
+        <Property name="MaxSize" value="{{1,0},{1,0}}" />
+        <Window type="Generic/Image" name="Background" >
+            <Property name="ID" value="201" />
+            <Property name="Area" value="{{0.4,0},{0.3,0},{0.6,0},{0.7,0}}" />
+            <Property name="Image" value="Menu/Box" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+        </Window>
+        <Window type="DefaultWindow" name="Menu" >
+            <Property name="ID" value="20" />
+            <Property name="Area" value="{{0.45,0},{0.35,0},{0.55,0},{0.65,0}}" />
+            <Property name="Active" value="true" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            <Property name="AlwaysOnTop" value="true" />
+            <Window type="Generic/Image" name="Entry1" >
+                <Property name="ID" value="200" />
+                <Property name="Area" value="{{0,1},{0.2,0},{1,1},{0.4,0}}" />
+                <Property name="Image" value="Menu/Button" />
+                <Property name="Active" value="true" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                <Window type="Generic/Label" name="Label" >
+                    <Property name="Area" value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    <Property name="Font" value="Runic-MT-18" />
+                    <Property name="Text" value="Play" />
+                    <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                    <Property name="NormalTextColour" value="FFFFFFFF" />
+                </Window>
+            </Window>
+            <Window type="Generic/Image" name="Entry2" >
+                <Property name="ID" value="201" />
+                <Property name="Area" value="{{0,1},{0.6,0},{1,1},{0.8,0}}" />
+                <Property name="Image" value="Menu/Button" />
+                <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                <Window type="Generic/Label" name="Label" >
+                    <Property name="Area" value="{{0,0},{0,0},{1,0},{1,0}}" />
+                    <Property name="Font" value="Runic-MT-18" />
+                    <Property name="Text" value="Quit" />
+                    <Property name="MaxSize" value="{{1,0},{1,0}}" />
+                    <Property name="NormalTextColour" value="FFFFFFFF" />
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

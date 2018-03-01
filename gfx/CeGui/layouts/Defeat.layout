@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout version="4" >
+    <Window type="Generic/Image" name="Defeat" >
+        <Property name="Area" value="{{0,760},{0,350},{0,1160},{0,470}}" />
+        <Property name="Image" value="GameUI/Frame" />
+        <Property name="Active" value="true" />
+        <Property name="MaxSize" value="{{1,0},{1,0}}" />
+        <Window type="Generic/Label" name="Label" >
+            <Property name="Area" value="{{0,111},{0,34},{0,277},{0,86}}" />
+            <Property name="Font" value="Runic-MT-28" />
+            <Property name="Text" value="Defeat" />
+            <Property name="Active" value="true" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            <Property name="NormalTextColour" value="FFFFFFFF" />
+        </Window>
+    </Window>
+</GUILayout>

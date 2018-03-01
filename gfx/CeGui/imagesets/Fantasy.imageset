@@ -1,0 +1,4 @@
+<Imageset autoScaled="" imagefile="../../image/SplashScreen1.png" name="Splash" nativeHorzRes="800" nativeVertRes="600" version="2">
+    <Image height="3028" name="Girl" width="2896" xPos="791" yPos="78" />
+    <Image height="757" name="White" width="901" xPos="0" yPos="0" />
+</Imageset>
